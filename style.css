@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    font-family: system-ui;
+    cursor: crosshair;
+    color: #11131e;
+    height: 100vh;
+  }
+  canvas {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: #11131e;
+  }
